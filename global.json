@@ -1,0 +1,26 @@
+{
+    "folder_names": [
+        "crop_circle",
+        "bg_removed",
+        "original",
+        "upscaled"
+    ],
+    "tasks": {
+        "upscale": {
+            "scaling_factor": 4,
+            "model_path": "pretrained/EDSR_x4.pb",
+            "model": "edsr",
+            "prefolder": "original",
+            "postfolder": "upscaled"
+        },
+        "crop_circle": {
+            "prefolder": "upscaled",
+            "postfolder": "crop_circle"
+        },
+        "bg_remove": {
+            "prefolder": "upscaled",
+            "postfolder": "bg_removed"
+        }
+    },
+    "images_folder_root": "../images"
+}
