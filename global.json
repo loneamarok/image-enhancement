@@ -5,6 +5,9 @@
         "original",
         "upscaled"
     ],
+    "ignore_folders": [
+        "social_media"
+    ],
     "tasks": {
         "upscale": {
             "scaling_factor": 4,

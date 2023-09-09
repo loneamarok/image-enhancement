@@ -39,6 +39,9 @@ def main():
 
     # Loops through all the folders in the images root folder
     for folder in os.listdir(config["images_folder_root"]):
+        # If the folder name is in the ignore list, skip it
+        if folder in config["ignore_folders"]:
+            continue
         d = os.path.join(config["images_folder_root"], folder)
         if os.path.isdir(d):
             # Get all the image names that are post
