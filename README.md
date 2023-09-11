@@ -26,6 +26,24 @@ python manipulate_images.py crop_circle
 The global.conf file has the configurations for image manipulations like scaling factor, etc.
 
 # TODO items
-1. Ignore some folders in the images root folder
-2. Used and unused images seperated
+1. Used and unused images seperated
+
+# Company roles
+Sriram - Designer 
+- Market research on what can sell and where.
+- Create designs in between Gym sets
+- Add captions and hashtags to the instagram posts
+- 30 mins at night to download the designs, run image manipulation on them and uploading on redbubble/etsy
+
+Amma: Social media prep
+- Download images and sort them in folder
+- Upload an inital instagram post without caption or hashtags. Only the links to the product are present
+- Upload the posts that are complete to twitter
+
+Milestone 1: 500 designs by November 2023 end
+Milestone 2: 1000 designs by Jan 2024 end
+
+
+
+
  
